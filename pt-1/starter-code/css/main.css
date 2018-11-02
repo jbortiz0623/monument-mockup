@@ -17,13 +17,27 @@ h1 a {
     display: inline-block;
 }
 
+h1 {
+	font-size: 37.5px;
+	letter-spacing: 12px;
+	letter-spacing: .8rem;
+}
 nav {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
     z-index: 100;
+}
+
+nav li {
+	display: inline-block;
+}
+
+section {
+    padding: 105px 30px;
 }
 
 footer {
@@ -87,4 +101,9 @@ div {
 }
 .hamburger {
     display: none;
+}
+
+li {
+    display: block;
+    text-align: left;
 }
