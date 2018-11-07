@@ -3,7 +3,6 @@
 }
 body {
     font-family: Verdana, sans-serif;
-    -webkit-font-smoothing: antialiased;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: .02em;
@@ -59,7 +58,6 @@ img {
 }
 nav a {
     font-weight: 600;
-    letter-spacing: 0.75px;
     letter-spacing: .05rem;
     padding: 3px 60px;
     display: inline-block;
@@ -76,7 +74,6 @@ a {
 
 header {
     background-image: url(../images/blog_header_bg.jpg);
-    background-size: cover;
     background-position: center;
     height: 350px;
     margin-bottom: 48px;
@@ -84,7 +81,6 @@ header {
 
 .intro {
 	display: flex;
-	-webkit-box-align: center;
 	align-items: center;
 	justify-content: center;
 	flex-wrap:  wrap;
